@@ -1,0 +1,142 @@
+/*
+Theme Name: Foxhillarts 
+Theme URI:
+Author: Webcrafton
+Author URI: http://webcrafton.com
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ecommerce
+Tags: ''
+*/
+
+
+.menu-inner-open ul li:first-child {
+  -webkit-animation: 1.5s .2s fadeInUp both;
+  animation: 1.5s .2s fadeInUp both;
+}
+.menu-inner-open ul li:nth-child(2) {
+  -webkit-animation: 1.5s .4s fadeInUp both;
+  animation: 1.5s .4s fadeInUp both;
+}
+.menu-inner-open ul li:nth-child(3) {
+  -webkit-animation: 1.5s .6s fadeInUp both;
+  animation: 1.5s .6s fadeInUp both;
+}
+.menu-inner-open ul li:nth-child(4) {
+  -webkit-animation: 1.5s .8s fadeInUp both;
+  animation: 1.5s .8s fadeInUp both;
+}
+.menu-inner-open ul li:nth-child(5) {
+  -webkit-animation: 1.5s 1.0s fadeInUp both;
+  animation: 1.5s 1.0s fadeInUp both;
+}
+.menu-inner-open ul li:nth-child(6) {
+  -webkit-animation: 1.5s 1.2s fadeInUp both;
+  animation: 1.5s 1.2s fadeInUp both;
+}
+.menu-inner-open ul li:nth-child(7) {
+  -webkit-animation: 1.5s 1.4s fadeInUp both;
+  animation: 1.5s 1.4s fadeInUp both;
+}
+
+.menu-inner-open .menu-contact-content {
+  -webkit-animation: 1.5s .8s fadeInUp both;
+  animation: 1.5s .8s fadeInUp both;
+}
+
+.contact-form-inner form .wpcf7-submit {
+	height: 46px;
+	line-height: 46px;
+	background: #000000;
+	color: #fff;
+	padding: 0 40px;
+	border: 0;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.contact-form-inner form .wpcf7-submit:focus {
+	border: 0;
+}
+
+
+
+#preloader { 
+  position: fixed; 
+  left: 0; 
+  top: 0; 
+  z-index: 9998; 
+  width: 100%; 
+  height: 100%; 
+  overflow: visible; 
+	background-color: #B6C2B9;
+}
+#preloader img {
+ -webkit-animation: rotation 0.5s infinite alternate;
+    -moz-animation: rotation 0.5s infinite alternate;
+    -o-animation: rotation 0.5s infinite alternate;
+    animation: rotation 0.5s infinite alternate;
+width: 45px;
+margin: 0;
+opacity: 0.1;
+height: auto;
+position: fixed;
+top: 50%;
+left: 50%;
+ z-index: 9999; 
+ margin: -32px 0 0 -22.5px;
+}
+@-webkit-keyframes rotation {
+    from {opacity: 0.1;}
+    to {opacity: 0.9;}
+}
+@-moz-keyframes rotation {
+    from {opacity: 0.1;}
+    to {opacity: 0.9;}
+}
+@-o-keyframes rotation {
+    from {opacity: 0.1;}
+    to {opacity: 0.9;}
+}
+@keyframes rotation {
+    from {opacity: 0.1;}
+    to {opacity: 0.9;}
+}
+
+.banner-area.style-two {
+	position: relative;
+}
+.bst-horizontal-line {
+	position: absolute;
+    left: -155px;
+    bottom: 182px;
+    color: #fff !important;
+    transform: rotate(-90deg);
+    font-size: 14px;
+    text-align: left;
+    min-width: 350px;
+}
+.bst-horizontal-line span {
+	color: #fff !important;
+}
+.bst-horizontal-line:hover,
+.bst-horizontal-line:focus{
+	color: #fff !important;
+}
+.bst-horizontal-line-after {
+	padding-right: 165px;
+}
+.bst-horizontal-line-after:after {
+    content: "";
+    position: absolute;
+	left: 52px;
+    top: 13px;
+    background: #fff;
+    height: 1px;
+    width: 130px;
+}
+
+div.wpcf7-response-output {
+	margin: 0px 0px 20px 0px !important; 
+}
